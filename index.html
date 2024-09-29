@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div className="container">
+         <header class="header-content">
+            <h1>where in the world</h1>
+            <button class="btn1">
+               <i class="fa-solid fa-moon" id="theme"></i>
+               <span class="theme-btn">Dark Mode</span>
+            </button>
+         </header>
+         <div class="search_drop_menue">
+         <div class="Search_bar">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="search country" class="search-pol"/>
+           </div>
+           <div class="drop-box">
+            <select class="drop-menue">
+             <option hidden="">Filter by region</option>
+             <option value="africa">africa</option>
+             <option value="america">america</option>
+             <option value="asia">asia</option>
+             <option value="Europe">Europe</option>
+             <option value="oceania">oceania</option>
+            </select>
+           </div>
+        </div>
+        <div class="countries-container">
+       </div>
+    <script type="text/javascript" src="./index.js">
+    </script>
+    <script src="./theme-changer.js">
+    </script>
+</body>
+</html>
